@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Inspiration by Devansh",
+  "version": "1.0",
+  "description": "Inspiration Extension by Devansh",
+
+  "browser_action": {
+    "default_icon": "logo.png"
+  },
+
+    "chrome_url_overrides": {
+      "newtab": "inspiration.html"
+    },
+
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/",
+    "geolocation"
+  ]
+}
