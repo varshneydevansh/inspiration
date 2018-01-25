@@ -1,17 +1,19 @@
 {
+  "update_url": "https://clients2.google.com/service/update2/crx",
   "manifest_version": 2,
   "name": "Inspiration by Devansh",
   "version": "1.0",
   "description": "Inspiration Extension by Devansh",
 
   "browser_action": {
-    "default_icon": "logo.png"
+    "default_icon": "logo.png",
+    "default_title": "Inspiration"
   },
 
     "chrome_url_overrides": {
       "newtab": "inspiration.html"
     },
-
+  "offline_enabled": true,
   "permissions": [
     "activeTab",
     "https://ajax.googleapis.com/",
